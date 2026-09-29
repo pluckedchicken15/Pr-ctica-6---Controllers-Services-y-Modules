@@ -14,18 +14,12 @@ depende de la peticion, POST crea una clase solamente con id, PUT y PATCH lanzan
 5.-¿En qué archivo vive hoy toda la lógica de la práctica?
 en appcontroller
 
+201 CREATED
+<img width="1500" height="1030" alt="image" src="https://github.com/user-attachments/assets/a7795497-7476-4081-9aad-55cc30e32234" />
 
-GET
-<img width="1919" height="1079" alt="Captura de pantalla 2026-09-08 185057" src="https://github.com/user-attachments/assets/06e64405-6b70-4881-a604-21c9d44a5326" />
+409 CONFLICT
+<img width="1505" height="1035" alt="image" src="https://github.com/user-attachments/assets/11795402-980c-4452-a18c-19497e0caa0f" />
 
-POST
-<img width="1919" height="1079" alt="Captura de pantalla 2026-09-08 190315" src="https://github.com/user-attachments/assets/5cf6ada3-2680-4964-a65f-6a423704e99d" />
-
-PATCH
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2e220f48-31b5-4112-b8fb-abc153e8f91c" />
-
-PUT
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/60409e53-b3e2-450a-b07c-b88dfde492f6" />
 
 
 
