@@ -36,10 +36,10 @@ export class InscripcionesService {
             const delHorario = await this.repo.buscarPorHorario(dto.horarioId);
             
             
-            const yaInscrito = delHorario.some((i) => i.miembroId === dto.miembroId && i.estado! == 'cancelada');
+            const yaInscrito = delHorario.some((i) => i.miembroId === dto.miembroId && i.estado !== 'cancelada');
 
             if(yaInscrito){
-                throw new InscripcionDuplicadaError(dto.horarioId, dto.miembroId)
+                throw new InscripcionDuplicadaError(dto.horarioId, dto.miembroId);
             }
 
             return this.repo.guardar({horarioId: dto.horarioId, miembroId: dto.miembroId});
